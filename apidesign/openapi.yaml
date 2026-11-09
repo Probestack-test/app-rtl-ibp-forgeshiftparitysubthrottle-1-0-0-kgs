@@ -1,0 +1,17 @@
+openapi: 3.0.3
+info:
+  title: forgeshiftparitysubthrottle-1-0-0
+  version: 1.0.0
+  description: Operational baseline generated from observed Kong Konnect configuration.
+servers:
+- url: https://postman-echo.com
+paths: {}
+x-kong-source:
+  serviceId: 4d73f74f-37ff-4567-8e87-131b824917f5
+  snapshotFingerprint: 07cea5136085320a7d1a760a482942009d20bec1206588859bbf39aee15301c0
+  controlPlaneId: edb363b5-777a-445c-a190-5ca0d53c0c12
+x-kong-unmapped-routes:
+- routeId: f3c2394a-f3e4-47f9-8a03-a3ef860418ee
+  routeName: forgeshiftparitysubthrottle-1-0-0--getget
+  reasons:
+  - REGEX_OR_UNSUPPORTED_PATH
